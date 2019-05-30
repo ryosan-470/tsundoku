@@ -8,3 +8,10 @@ tsundoku とは私の私による私のための読みたいものリストで�
 [読む予定のリスト](https://github.com/ryosan-470/tsundoku/projects/1)
 
 - [分散システム徹底入門](./A_Thorough_Introduction_to_Distributed_Systems.md)
+
+
+# LICENSE
+訳文はすべて、MIT License に準拠します。
+ただし原文は各著者のライセンスに従います。
+
+All translations are under by MIT License.
