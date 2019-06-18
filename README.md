@@ -10,6 +10,8 @@ tsundoku とは私の私による私のための読みたいものリストで�
 - [分散システム徹底入門](./A_Thorough_Introduction_to_Distributed_Systems.md)
 - [Increasing access to blockchain and ledger databases](./Increasing_access_to_blockchain_and_ledger_databases.md)
     - AWS CTO のブログの記事。ブロックチェーンと元帳データベースについての解説記事です。
+- [Google Testing  Blog](https://testing.googleblog.com/) より Google Testing on the Toilet (TotT) の取り組みにある記事からいくつか。
+    - [Testing on the Toilet: Don’t Overuse Mocks](./Testing_on_the_Toilet_Dont_Overuse_Mocks.md)
 
 # LICENSE
 訳文はすべて、MIT License に準拠します。
