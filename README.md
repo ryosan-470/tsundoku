@@ -12,6 +12,8 @@ tsundoku とは私の私による私のための読みたいものリストで�
     - AWS CTO のブログの記事。ブロックチェーンと元帳データベースについての解説記事です。
 - [Google Testing  Blog](https://testing.googleblog.com/) より Google Testing on the Toilet (TotT) の取り組みにある記事からいくつか。
     - [Testing on the Toilet: Don’t Overuse Mocks](./Testing_on_the_Toilet_Dont_Overuse_Mocks.md)
+    - [Testing on the Toilet: What Makes a Good End-to-End Test?](./Testing_on_the_Toilet_What_Makes_a_Good_End-to-End_Test.md)
+        - よいエンドツーエンドテストについて
 
 # LICENSE
 訳文はすべて、MIT License に準拠します。
