@@ -16,6 +16,8 @@ tsundoku とは私の私による私のための読みたいものリストで�
         - よいエンドツーエンドテストについて
     - [Testing on the Toilet: Know Your Test Doubles](./TotT/Testing_on_the_Toilet_Know_Your_Test_Doubles.md)
         - テストダブルとはなにか
+    - [Testing on the Toilet: Fake Your Way to Better Tests](./TotT/Testing_on_the_Toilet_Fake_Your_Way_to_Better_Test.md)
+        - 上のテストダブルに関連して。テストにおけるフェイクの書き方、用い方について
 
 # LICENSE
 訳文はすべて、MIT License に準拠します。
