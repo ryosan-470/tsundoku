@@ -19,6 +19,8 @@ tsundoku とは私の私による私のための読みたいものリストで�
     - [Testing on the Toilet: Fake Your Way to Better Tests](./TotT/Testing_on_the_Toilet_Fake_Your_Way_to_Better_Test.md)
         - 上のテストダブルに関連して。テストにおけるフェイクの書き方、用い方について
     - [Testing on the Toilet: What Makes a Good Test](./TotT/Testing_on_the_Toilet_What_Makes_a_Good_Test.md)
+    - [Testing on the Toilet: Test Behavior, Not Implementation](./TotT/Testing_on_the_Toilet_Test_Behavior_Not_Implementation.md)
+        - テストにコードの実装をベタ書きするのはよくないよ、といった内容の記事
 
 # LICENSE
 訳文はすべて、MIT License に準拠します。
