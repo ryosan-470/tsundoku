@@ -25,6 +25,9 @@ tsundoku とは私の私による私のための読みたいものリストで�
         - 1つのメソッドに関して1テストである必要はなく、1つのメソッドの振る舞いごとにテストを分割するといいという記事。
     - [Testing on the Toilet: Don't Put Logic in Tests](./TotT/Testing_on_the_Toilet_Don_t_Put_Logic_in_Tests.md)
         - テストにおいて、ロジックを書くとはどういうことか。が述べられている。
+- [Test Flakiness – Methods for identifying and dealing with flaky tests](./Test_Flakiness.md)
+    - Spotify のエンジニアリングブログより。CIでときおりランダムで落ちたり落ちなかったりする現象をFlakinessと呼んでそのようなテストについて記述している。
+
 
 # LICENSE
 訳文はすべて、MIT License に準拠します。
