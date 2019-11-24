@@ -6,10 +6,28 @@
     <description>Recent content in Tags on ryosan-470の積ん読ブログ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 24 Nov 2019 18:34:01 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 24 Nov 2019 19:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://ryosan-470.github.io/tsundoku/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>distributed systems</title>
+      <link>https://ryosan-470.github.io/tsundoku/tags/distributed-systems/</link>
+      <pubDate>Sun, 24 Nov 2019 19:00:00 +0900</pubDate>
+      
+      <guid>https://ryosan-470.github.io/tsundoku/tags/distributed-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>testing</title>
+      <link>https://ryosan-470.github.io/tsundoku/tags/testing/</link>
+      <pubDate>Sun, 24 Nov 2019 18:58:53 +0900</pubDate>
+      
+      <guid>https://ryosan-470.github.io/tsundoku/tags/testing/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>aws</title>

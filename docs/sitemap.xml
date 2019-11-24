@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ryosan-470.github.io/tsundoku/tags/distributed-systems/</loc>
+    <lastmod>2019-11-24T19:07:46+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ryosan-470.github.io/tsundoku/posts/</loc>
+    <lastmod>2019-11-24T19:07:46+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ryosan-470.github.io/tsundoku/</loc>
+    <lastmod>2019-11-24T19:07:46+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ryosan-470.github.io/tsundoku/tags/</loc>
+    <lastmod>2019-11-24T19:07:46+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ryosan-470.github.io/tsundoku/posts/introfuction_of_distributed_systems/</loc>
+    <lastmod>2019-11-24T19:07:46+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ryosan-470.github.io/tsundoku/posts/test_flakiness/</loc>
+    <lastmod>2019-11-24T19:07:46+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ryosan-470.github.io/tsundoku/tags/testing/</loc>
+    <lastmod>2019-11-24T19:07:46+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ryosan-470.github.io/tsundoku/tags/aws/</loc>
     <lastmod>2019-11-24T18:45:17+09:00</lastmod>
   </url>
@@ -14,21 +49,6 @@
   
   <url>
     <loc>https://ryosan-470.github.io/tsundoku/posts/aws/qldb/</loc>
-    <lastmod>2019-11-24T18:45:17+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ryosan-470.github.io/tsundoku/posts/</loc>
-    <lastmod>2019-11-24T18:45:17+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ryosan-470.github.io/tsundoku/</loc>
-    <lastmod>2019-11-24T18:45:17+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ryosan-470.github.io/tsundoku/tags/</loc>
     <lastmod>2019-11-24T18:45:17+09:00</lastmod>
   </url>
   
