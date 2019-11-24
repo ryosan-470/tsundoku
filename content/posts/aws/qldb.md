@@ -1,5 +1,11 @@
+---
+title: "Increasing access to blockchain and ledger databases"
+date: 2019-11-24T18:34:01+09:00
+draft: false
+tags: ["aws", "blockchain"]
+---
+
 # Increasing access to blockchain and ledger databases
-https://www.allthingsdistributed.com/2019/05/blockchain.html
 
 昨年、HARAというジャカルタにあるAWSの顧客を訪問しました。彼らは発展途上国で種子や肥料、道具といったものの配給業者や銀行と小さな農家をつなぐものを作っています。伝統的に田舎の農家は口座開設やクレジット申請に必要な情報を通常持っていないため、金融業界から無視されてきました。HARAでは小規模な農場に関するこの入手困難なデータを収集し認証しているため、これらの農家はこれまでアクセスできなかったリソースにアクセスできるようになります。
 

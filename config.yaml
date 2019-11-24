@@ -14,6 +14,9 @@ Params:
     - icon: "github-circle"
       url: "https://github.com/ryosan-470/"
 
+taxonomies:
+  tag: tags
+
 outputs:
   home:
     - "HTML"
