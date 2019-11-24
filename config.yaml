@@ -4,6 +4,7 @@ title: ryosan-470の積ん読ブログ
 author: ryosan-470
 theme: bare
 pagenate: 10
+publishDir: docs
 
 Params:
   readmore: true
