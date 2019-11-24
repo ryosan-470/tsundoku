@@ -8,8 +8,6 @@ tsundoku とは私の私による私のための読みたいものリストで�
 [読む予定のリスト](https://github.com/ryosan-470/tsundoku/projects/1)
 
 - [分散システム徹底入門](./A_Thorough_Introduction_to_Distributed_Systems.md)
-- [Increasing access to blockchain and ledger databases](./Increasing_access_to_blockchain_and_ledger_databases.md)
-    - AWS CTO のブログの記事。ブロックチェーンと元帳データベースについての解説記事です。
 - [Google Testing  Blog](https://testing.googleblog.com/) より Google Testing on the Toilet (TotT) の取り組みにある記事からいくつか。
     - [Testing on the Toilet: Don’t Overuse Mocks](./TotT/Testing_on_the_Toilet_Dont_Overuse_Mocks.md)
     - [Testing on the Toilet: What Makes a Good End-to-End Test?](./TotT/Testing_on_the_Toilet_What_Makes_a_Good_End-to-End_Test.md)
@@ -25,9 +23,6 @@ tsundoku とは私の私による私のための読みたいものリストで�
         - 1つのメソッドに関して1テストである必要はなく、1つのメソッドの振る舞いごとにテストを分割するといいという記事。
     - [Testing on the Toilet: Don't Put Logic in Tests](./TotT/Testing_on_the_Toilet_Don_t_Put_Logic_in_Tests.md)
         - テストにおいて、ロジックを書くとはどういうことか。が述べられている。
-- [Test Flakiness – Methods for identifying and dealing with flaky tests](./Test_Flakiness.md)
-    - Spotify のエンジニアリングブログより。CIでときおりランダムで落ちたり落ちなかったりする現象をFlakinessと呼んでそのようなテストについて記述している。
-
 
 # LICENSE
 訳文はすべて、MIT License に準拠します。

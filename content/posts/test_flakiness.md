@@ -1,3 +1,12 @@
+---
+title: "Test Flakiness – Methods for identifying and dealing with flaky tests"
+date: 2019-11-24T18:58:53+09:00
+draft: false
+tags: ["testing"]
+---
+
+> Spotifyのエンジニアリングブログより。CIで起きる時折ランダムに落ちるようなテストのことをFlakyなテストとよびそれらについて、さらにその原因やSpotifyではどのように対処しているか、書かれている
+
 # Test Flakiness – Methods for identifying and dealing with flaky tests
 
 https://labs.spotify.com/2019/11/18/test-flakiness-methods-for-identifying-and-dealing-with-flaky-tests/
@@ -54,9 +63,4 @@ Spotifyには、開発者向けツールの大規模なスイートの一部で�
 
 これは私にとって初めてのSpotifyの外での公の公演でした。私のスライドは以下にあります。
 
-
 https://drive.google.com/file/d/1D39rLYwfhptjk9ZdTHVmLG7cAf1eMP3Q/view
-
-
-[https://drive.google.com/file/d/1D39rLYwfhptjk9ZdTHVmLG7cAf1eMP3Q/edit](https://drive.google.com/file/d/1D39rLYwfhptjk9ZdTHVmLG7cAf1eMP3Q/edit)
-

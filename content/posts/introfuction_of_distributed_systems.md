@@ -1,3 +1,10 @@
+---
+title: "分散システム入門"
+date: 2019-11-24T19:00:00+09:00
+draft: true
+tags: ["distributed systems"]
+---
+
 # A Thorough Introduction to Distributed Systems
 
 https://medium.com/free-code-camp/a-thorough-introduction-to-distributed-systems-3b91562c9b3c
@@ -277,13 +284,13 @@ IPFS はDNS同様のネーミングシステムであるIPNSを持っており�
 Consumer は情報をブローカーから引き出す (pullモデル) または、ブローカーに情報を直接consumerにプッシュ (push モデル) させることができます。
 
  人気の高いメッセージングプラットフォームがいくつかあります。
- 
+
  **RabbitMQ** ルーティングルールやその他の簡単に設定可能な設定を介してメッセージの軌跡をきめ細やかに制御できるメッセージブローカ。スマートブローカとは多くのロジックを含み、通過するメッセージを厳密に追跡することができます。**CAP** における **AP** と **CP** の両者を設定で行うことができ、プッシュモデルを用いてconsumerに通知します。
- 
+
  **Kafka** メッセージブローカ (およびすべてのプラットフォーム) はやや低レベルで、どのメッセージが読み取られたかを追跡することもできず複雑なルーティングロジックも使用できません。これにより驚くべきパフォーマンスを実現しています。私の意見ではオープンソースコミュニティにより活発に開発されConfluentチームによりサポートされる最も見通しのあるプロジェクトです。Kafkaは間違いなくトップテック企業で最も広く使われています。[Kafkaの紹介と利点についての詳細を私は書いています。](https://hackernoon.com/thorough-introduction-to-apache-kafka-6fbf2989bbc1)
- 
+
  **Apache ActiveMQ** 最も古いもので2004年からのプロジェクトです。JMS APIを用いるため、Java EEアプリケーションと連携できます。ActiveMQ Artemis として書き直され、Kafkaと同等の優れたパフォーマンスを提供します。
- 
+
  **Amazon SQS** AWSにより提供されるメッセージングサービスです。すでに存在するアプリケーションに容易に組み込みことができ、Kafkaのようなシステムは設定することが難しいということで有名なので、独自のインフラストラクチャを扱う必要性を排除することができます。Amazon はさらに似ている2つのサービスとしてSNSとMQを用意しており、後者はAmazonにより管理されるActiveMQを基本としています。
 
 ## 分散アプリケーション
@@ -410,5 +417,6 @@ Ethereumはプログラミング可能なブロックチェーンを基礎とし
 - [分散型システム徹底入門: Part 1](https://postd.cc/a-thorough-introduction-to-distributed-systems-3/)
 - [分散型システム徹底入門: Part 2](https://postd.cc/a-thorough-introduction-to-distributed-systems-2/)
 - [分散型システム徹底入門: Part 3](https://postd.cc/a-thorough-introduction-to-distributed-systems/)
+
 
 
