@@ -1,0 +1,34 @@
+baseURL: https://ryosan-470.github.io/
+languageCode: ja-jp
+title: ryosan-470の積ん読ブログ
+author: ryosan-470
+theme: bare
+pagenate: 10
+publishDir: docs
+
+Params:
+  readmore: true
+  mainSections:
+  - "posts"
+  social:
+    - icon: "github-circle"
+      url: "https://github.com/ryosan-470/"
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+  page:
+    - "HTML"
+  section:
+    - "HTML"
+    - "RSS"
+  taxonomyTerm:
+    - "HTML"
+    - "RSS"
+  taxonomy:
+    - "HTML"
+    - "RSS"
+
+sitemap:
+  filename: "sitemap.xml"
