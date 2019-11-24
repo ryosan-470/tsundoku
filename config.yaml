@@ -5,6 +5,7 @@ author: ryosan-470
 theme: bare
 pagenate: 10
 publishDir: docs
+enableGitInfo: true # Ref: https://gohugo.io/variables/git/
 
 Params:
   readmore: true
