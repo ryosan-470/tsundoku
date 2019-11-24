@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on ryosan-470の積ん読ブログ</title>
-    <link>https://ryosan-470.github.io/tsundoku/posts/</link>
-    <description>Recent content in Posts on ryosan-470の積ん読ブログ</description>
+    <title>blockchain on ryosan-470の積ん読ブログ</title>
+    <link>https://ryosan-470.github.io/tsundoku/tags/blockchain/</link>
+    <description>Recent content in blockchain on ryosan-470の積ん読ブログ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sun, 24 Nov 2019 18:34:01 +0900</lastBuildDate>
     
-	<atom:link href="https://ryosan-470.github.io/tsundoku/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ryosan-470.github.io/tsundoku/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -32,18 +32,6 @@ HARAが作成したシステムの主なコンポーネントはブロックチ�
  合意アルゴリズム はネットワーク内のメンバーが元帳にトランザクションとデータをコミットするための合意手段として保証するものです。もし合意の必要性が適合しなかった場合、トランザクションはロールバックされ無効になります。 スマートコントラクト は契約に対する契約の規則および罰則がコード行に定義されているプログラムです。プログラムは契約条件が満たされたときに継続的にチェックされ、契約が自動的に実行されるようにします。  これらの要素を組み合わせることで2人以上の当事者が分散信託で取引することが可能になります。各当事者はその取引に合意し、その取引を記録します。分散型の信頼は複数の組織が独立してトランザクション履歴を検証し、単一の最新で正確なデータビューを持つ必要がある場合に意味があります。アプリケーションを維持することを望んでいる単一の当事者がいないが、ネットワークメンバーが依然として他の当事者と効率的に取引したいというときにも意味があります。
 分散型の信頼が必要な貿易金融アプリケーションの例についてみてみましょう。国境をまたぐ品物の取引には輸入業者、輸出業者、複数の銀行、運送会社、保険会社、税関など多くの組織が互いに連携する必要があります。多くのステークホルダーが関わるため、信頼できる中央機関はありません。それぞれのステークホルダーは取引に関連する文書を独自に検証したいと考えており、単一の組織が活動の記録を所有することを望んでいません。
 現在のプロセスでは貿易に関する事務処理 (例えば信用状など) のやり取りが必要で、完了までに5 〜 10営業日かかることがあります。これにより長い処理時間と高い費用をもたらしています。</description>
-    </item>
-    
-    <item>
-      <title>積ん読ブログHugo化してみるの巻</title>
-      <link>https://ryosan-470.github.io/tsundoku/posts/hello/</link>
-      <pubDate>Sun, 24 Nov 2019 17:40:21 +0900</pubDate>
-      
-      <guid>https://ryosan-470.github.io/tsundoku/posts/hello/</guid>
-      <description>少し前から自分が読んでみたいエンジニアリングの記事のうち、主に英語で書かれているものをピックアップして、軽く訳してみたものをGitHub Pagesに上げていました。 しかし特に読みやすいように公開していたわけでもないのですがこの度重い腰を上げて、Hugoで公開してみたいと思います。
-翻訳について 翻訳については素人が雰囲気で翻訳しています。もし翻訳違いなどありましたらPRを送っていただけると幸いです。
-何を読もうとしているのか? 私がどんな物に興味があり何を読もうとしているかについては、イシューとプロジェクトを御覧ください。
- https://github.com/ryosan-470/tsundoku/issues https://github.com/ryosan-470/tsundoku/projects  それでは。</description>
     </item>
     
   </channel>
