@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>blockchain on ryosan-470の積ん読ブログ</title>
-    <link>https://ryosan-470.github.io/tsundoku/tags/blockchain/</link>
-    <description>Recent content in blockchain on ryosan-470の積ん読ブログ</description>
+    <title>blockchain on ryosan-470 Blog</title>
+    <link>https://ryosan-470.github.io/tags/blockchain/</link>
+    <description>Recent content in blockchain on ryosan-470 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sun, 24 Nov 2019 18:34:01 +0900</lastBuildDate>
     
-	<atom:link href="https://ryosan-470.github.io/tsundoku/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ryosan-470.github.io/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Increasing access to blockchain and ledger databases</title>
-      <link>https://ryosan-470.github.io/tsundoku/posts/aws/qldb/</link>
+      <link>https://ryosan-470.github.io/posts/aws/qldb/</link>
       <pubDate>Sun, 24 Nov 2019 18:34:01 +0900</pubDate>
       
-      <guid>https://ryosan-470.github.io/tsundoku/posts/aws/qldb/</guid>
+      <guid>https://ryosan-470.github.io/posts/aws/qldb/</guid>
       <description>Increasing access to blockchain and ledger databases 昨年、HARAというジャカルタにあるAWSの顧客を訪問しました。彼らは発展途上国で種子や肥料、道具といったものの配給業者や銀行と小さな農家をつなぐものを作っています。伝統的に田舎の農家は口座開設やクレジット申請に必要な情報を通常持っていないため、金融業界から無視されてきました。HARAでは小規模な農場に関するこの入手困難なデータを収集し認証しているため、これらの農家はこれまでアクセスできなかったリソースにアクセスできるようになります。
 HARAが作成したシステムの主なコンポーネントはブロックチェーンでできています。この技術は複数の当事者がピアツーピアネットワークを介して会話をし、中央の信頼できる機関を持たずにイミュータブルなトランザクションを記録するアプリケーションで利用されています。HARAはEthereumという人気でオープンソースなブロックチェーンプラットフォーム上で動くアプリケーションを動作させるために追加の技術を開発しなければなりませんでした。
 これはNestleやSingapore Exchangeなど、多くの顧客と共有している問題です。現在ではブロックチェーン上にスケーラブルなエンタープライズアプリケーションを構築することは時間がかかり複雑です。これらの課題を解決できない組織は取り残されています。彼らのアイデアも取り残されており、HARAのような世界をよくするようなアイデアが取り残されてしまいます。

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>testing on ryosan-470の積ん読ブログ</title>
-    <link>https://ryosan-470.github.io/tsundoku/tags/testing/</link>
-    <description>Recent content in testing on ryosan-470の積ん読ブログ</description>
+    <title>testing on ryosan-470 Blog</title>
+    <link>https://ryosan-470.github.io/tags/testing/</link>
+    <description>Recent content in testing on ryosan-470 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sun, 24 Nov 2019 18:58:53 +0900</lastBuildDate>
     
-	<atom:link href="https://ryosan-470.github.io/tsundoku/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ryosan-470.github.io/tags/testing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Test Flakiness – Methods for identifying and dealing with flaky tests</title>
-      <link>https://ryosan-470.github.io/tsundoku/posts/test_flakiness/</link>
+      <link>https://ryosan-470.github.io/posts/test_flakiness/</link>
       <pubDate>Sun, 24 Nov 2019 18:58:53 +0900</pubDate>
       
-      <guid>https://ryosan-470.github.io/tsundoku/posts/test_flakiness/</guid>
+      <guid>https://ryosan-470.github.io/posts/test_flakiness/</guid>
       <description>Spotifyのエンジニアリングブログより。CIで起きる時折ランダムに落ちるようなテストのことをFlakyなテストとよびそれらについて、さらにその原因やSpotifyではどのように対処しているか、書かれている
  Test Flakiness – Methods for identifying and dealing with flaky tests https://labs.spotify.com/2019/11/18/test-flakiness-methods-for-identifying-and-dealing-with-flaky-tests/
 2019年9月12日、私はトロントで開かれた、Assert(JS) で Spotify におけるテスト Flakiness と、flakiness に対応するために長年に渡って構築してきたシステムのいくつかについて発表しました。

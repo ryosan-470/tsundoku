@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>distributed systems on ryosan-470の積ん読ブログ</title>
-    <link>https://ryosan-470.github.io/tsundoku/tags/distributed-systems/</link>
-    <description>Recent content in distributed systems on ryosan-470の積ん読ブログ</description>
+    <title>distributed systems on ryosan-470 Blog</title>
+    <link>https://ryosan-470.github.io/tags/distributed-systems/</link>
+    <description>Recent content in distributed systems on ryosan-470 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sun, 24 Nov 2019 19:00:00 +0900</lastBuildDate>
     
-	<atom:link href="https://ryosan-470.github.io/tsundoku/tags/distributed-systems/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ryosan-470.github.io/tags/distributed-systems/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>分散システム入門</title>
-      <link>https://ryosan-470.github.io/tsundoku/posts/introfuction_of_distributed_systems/</link>
+      <link>https://ryosan-470.github.io/posts/introfuction_of_distributed_systems/</link>
       <pubDate>Sun, 24 Nov 2019 19:00:00 +0900</pubDate>
       
-      <guid>https://ryosan-470.github.io/tsundoku/posts/introfuction_of_distributed_systems/</guid>
+      <guid>https://ryosan-470.github.io/posts/introfuction_of_distributed_systems/</guid>
       <description>A Thorough Introduction to Distributed Systems https://medium.com/free-code-camp/a-thorough-introduction-to-distributed-systems-3b91562c9b3c
 はじめに 世界における技術のますますの発展とともに分散システムもますます広がってきました。それらはコンピューターサイエンスの分野において複雑で巨大なものとなっています。
 この記事では分散システムの基本的な方法について紹介し、システムの深い詳細を紹介するのではなく分散システムの異なるカテゴリに関して垣間見ることになります。

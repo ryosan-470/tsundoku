@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on ryosan-470の積ん読ブログ</title>
-    <link>https://ryosan-470.github.io/tsundoku/tags/</link>
-    <description>Recent content in Tags on ryosan-470の積ん読ブログ</description>
+    <title>Tags on ryosan-470 Blog</title>
+    <link>https://ryosan-470.github.io/tags/</link>
+    <description>Recent content in Tags on ryosan-470 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sun, 24 Nov 2019 19:00:00 +0900</lastBuildDate>
     
-	<atom:link href="https://ryosan-470.github.io/tsundoku/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ryosan-470.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>distributed systems</title>
-      <link>https://ryosan-470.github.io/tsundoku/tags/distributed-systems/</link>
+      <link>https://ryosan-470.github.io/tags/distributed-systems/</link>
       <pubDate>Sun, 24 Nov 2019 19:00:00 +0900</pubDate>
       
-      <guid>https://ryosan-470.github.io/tsundoku/tags/distributed-systems/</guid>
+      <guid>https://ryosan-470.github.io/tags/distributed-systems/</guid>
       <description></description>
     </item>
     
     <item>
       <title>testing</title>
-      <link>https://ryosan-470.github.io/tsundoku/tags/testing/</link>
+      <link>https://ryosan-470.github.io/tags/testing/</link>
       <pubDate>Sun, 24 Nov 2019 18:58:53 +0900</pubDate>
       
-      <guid>https://ryosan-470.github.io/tsundoku/tags/testing/</guid>
+      <guid>https://ryosan-470.github.io/tags/testing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>aws</title>
-      <link>https://ryosan-470.github.io/tsundoku/tags/aws/</link>
+      <link>https://ryosan-470.github.io/tags/aws/</link>
       <pubDate>Sun, 24 Nov 2019 18:34:01 +0900</pubDate>
       
-      <guid>https://ryosan-470.github.io/tsundoku/tags/aws/</guid>
+      <guid>https://ryosan-470.github.io/tags/aws/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blockchain</title>
-      <link>https://ryosan-470.github.io/tsundoku/tags/blockchain/</link>
+      <link>https://ryosan-470.github.io/tags/blockchain/</link>
       <pubDate>Sun, 24 Nov 2019 18:34:01 +0900</pubDate>
       
-      <guid>https://ryosan-470.github.io/tsundoku/tags/blockchain/</guid>
+      <guid>https://ryosan-470.github.io/tags/blockchain/</guid>
       <description></description>
     </item>
     

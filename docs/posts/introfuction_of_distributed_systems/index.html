@@ -1,28 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-
-
-
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>
+<html lang="ja" itemscope itemtype="http://schema.org/WebPage">
+  <head>
     
-    分散システム入門
-    
-  </title>
-  <link rel="stylesheet" href='https://ryosan-470.github.io/tsundoku/css/site.min.bac6ef1371f3305e5b1dea181d9eef3f736db3fab28364ddcbb0dbb096c48005f447c0c4d793b89937e5b1ff09beaa788b2246115be20da65ae100b626f3c259.css' integrity='sha512-usbvE3HzMF5bHeoYHZ7vP3Nts/qyg2Tdy7DbsJbEgAX0R8DE15O4mTflsf8Jvqp4iyJGEVviDaZa4QC2JvPCWQ=='>
-  <link rel="canonical" href="https://ryosan-470.github.io/tsundoku/posts/introfuction_of_distributed_systems/">
-  <link rel="alternate" type="application/rss&#43;xml" href="https://ryosan-470.github.io/tsundoku/index.xml" title="ryosan-470の積ん読ブログ">
-  <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="chrome=1">
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="referrer" content="no-referrer">
 
-<meta name="description" content="A Thorough Introduction to Distributed Systems https://medium.com/free-code-camp/a-thorough-introduction-to-distributed-systems-3b91562c9b3c
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>分散システム入門 - ryosan-470 Blog</title>
+  <meta name="description" content="A Thorough Introduction to Distributed Systems https://medium.com/free-code-camp/a-thorough-introduction-to-distributed-systems-3b91562c9b3c
 はじめに 世界における技術のますますの発展とともに分散システムもますます広がってきました。それらはコンピューターサイエンスの分野において複雑で巨大なものとなっています。
 この記事では分散システムの基本的な方法について紹介し、システムの深い詳細を紹介するのではなく分散システムの異なるカテゴリに関して垣間見ることになります。
 分散システムとはなにか 分散システムの最も単純な定義はエンドユーザーには1つのコンピュータのように見えるように連携して動作するコンピュータの集合です。 これらのマシンは状態を共有しており、同時に動作し、システム全体への影響を及ぼさず独立して障害を起こします。 私はあなたがそれを全てよりよく理解できるようにシステムを分散させる例を通して段階的に取り組むことを提案します。
@@ -50,7 +36,74 @@
 もう一つの方法としてシャーディング (またはパーティショニング)とよばれる方法を見てみましょう。
 サーバーを複数の小さなサーバー二分割してシャーディングしたものをシャード と呼びます。これらのシャードはすべて異なるレコードを持っています。なので何のレコードをどのシャードにするかというルールを作成します。データが一様に分散されるようにルールを作ることは大変重要です。
 よくある手法としてレコードにおける情報の範囲によって定義するという方法があります。(例えばユーザー名がA~D)
-このシャーディングキーは任意のカラムと等しくない読み込みが発生するため、慎重に選ぶ必要があります。(例えば多くの人々の名前はZよりもCから始まる) 多くのリクエストを他のシャードよりも受け取るシャードのことを ホットスポット とよびこれは避けなければなりません。一度分割したものを再度シャーディングしなおすことは信じられないほど大変コストがかかるもので、FourSquareの11時間の障害のように多くのダウンタイムを引き起こすことになります。">
+このシャーディングキーは任意のカラムと等しくない読み込みが発生するため、慎重に選ぶ必要があります。(例えば多くの人々の名前はZよりもCから始まる) 多くのリクエストを他のシャードよりも受け取るシャードのことを ホットスポット とよびこれは避けなければなりません。一度分割したものを再度シャーディングしなおすことは信じられないほど大変コストがかかるもので、FourSquareの11時間の障害のように多くのダウンタイムを引き起こすことになります。"><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "ryosan-470 Blog",
+    
+    "url": "https:\/\/ryosan-470.github.io\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https:\/\/ryosan-470.github.io\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/ryosan-470.github.io\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/ryosan-470.github.io\/posts\/introfuction_of_distributed_systems\/",
+          "name": "分散システム入門"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : ""
+  },
+  "headline": "分散システム入門",
+  "description" : "A Thorough Introduction to Distributed Systems https:\/\/medium.com\/free-code-camp\/a-thorough-introduction-to-distributed-systems-3b91562c9b3c\nはじめに 世界における技術のますますの発展とともに分散システムもますます広がってきました。それらはコンピューターサイエンスの分野において複雑で巨大なものとなっています。\nこの記事では分散システムの基本的な方法について紹介し、システムの深い詳細を紹介するのではなく分散システムの異なるカテゴリに関して垣間見ることになります。\n分散システムとはなにか 分散システムの最も単純な定義はエンドユーザーには1つのコンピュータのように見えるように連携して動作するコンピュータの集合です。 これらのマシンは状態を共有しており、同時に動作し、システム全体への影響を及ぼさず独立して障害を起こします。 私はあなたがそれを全てよりよく理解できるようにシステムを分散させる例を通して段階的に取り組むことを提案します。\nデータベースを使ってみましょう。従来のデータベースは情報を取得\/挿入したいときはいつでも1つのマシンのファイルシステムに保存しているため、そのマシンと直接やり取りをします。 このデータベースシステムでの分散とは、同じときに複数のマシンでこのデータベースを動かすことになります。ユーザーは自分が選択したどのマシンともやりとりでき、単一のマシンと会話していないことを伝えることはできません。もしノード 1にレコードを挿入すると、ノード3はそのレコードを返すことができます。\nどうして分散システムなのか システムは常に必要に応じて分散されます。問題の真実は分散システムの管理は落とし穴と地雷でいっぱいな複雑なトピックであるということです。デプロイや維持、分散システムのデバッグは頭痛の種であり、どうしてそちらに行くのでしょうか?\n分散システムが可能にすることは水平方向へのスケール です。1つのデータベース・サーバーがある例に戻ってみると、更に多くのトラフィックをさばくための唯一の方法はデータベースが動いているハードウェアをアップグレードすることだけでした。これを 垂直方向のスケーリング と呼びます。\n水平方向のスケーリング はハードウェアをアップグレードするということではなく単に更に多くのコンピューターを追加するということです。\n特定のしきい値を超えた後の垂直方向のスケーリングよりも大幅に安価ですが、それが優先されるような主なケースではありません。\n垂直方向のスケーリングはパフォーマンスを最新のハードウェアの性能まで引き上げることができるだけです。この性能は中程度から大きなワークロードを抱えるテクノロジー企業にとっては不十分であるということが証明されています。\n水平方向のスケーリングにおける最善なことはスケールできる量に制限がないということです。つまりいつでもパフォーマンスが劣化した環境に他のマシンを追加することで無限の可能性を秘めた性能を引き出すことができます。\n分散システムから得られる利点は簡単なスケーリングだけではありません。フォールトトレランス と低遅延 も同様に重要です。\n フォールトトレランス 2つのデータセンターにまたがって10台のマシンのクラスターは本質的に単一のマシンよりも耐性があります。もし1つのデータセンターが焼失してもアプリケーションは稼働し続けられます。 低遅延 世界を旅するネットワークパケットの時間は光の速度という制約が物理的に存在します。例えばニューヨークとシドニー間の光ファイバーケーブル内の往復時間 (RTT) は最も短くて160msです。分散システムは2つの街にノードをおき、近いノードからトラフィックを返すことができます。  しかし分散システムを動かすためには具体的に同じ時間で複数のコンピューターに動かし、問題が起きた場合に対処するソフトウェアが必要です。これは簡単ではありません。\nデータベースをスケーリングする Webアプリケーションが大変有名になったと想像してみてください。さらに私達のデータベースが扱うクエリが秒間で2倍になったと想像してみてください。アプリケーションはすぐさまパフォーマンスが低下し、ユーザーはそれに気づくでしょう。\nでは一緒にデータベースをスケールアップし高負荷に耐えられるようにしていきましょう。\n典型的なWebアプリケーションでは新しい情報を挿入したり古い情報を修正するよりも情報を読み取ることのほうが多いです。\n読み取りパフォーマンスを向上する方法としてマスタースレーブレプリケーション 戦略と呼ばれる方法があります。ここでは新しく2つのデータベースサーバーをつくりメインのものと同期させます。これら2つのインスタンスからのみ読み取るようにします。\n情報を修正または挿入するときはいつでもマスターデータベースに接続しに行きます。それは順番に変更をスレーブに非同期的に通知しデータを保存します。\nおめでとうございます。ついに3倍もの読み込みクエリを実行できるようになりました。これでよいでしょうか?\n分散システムのカテゴリ 落とし穴 さて、データベースのACID 保証のうちC で表される一貫性が抜け落ちています。 ご存知の通り、ここには新しいレコードをデータベースにインサートしてすぐにそれを取得する読み込みクエリを実行すると何も返ってこないという問題があります。\nマスターからスレーブへの新しい情報の伝搬は瞬時には行われません。実際には古くなった情報を取得できる時間枠があります。そうでない場合は、データが伝搬されるのを同期的に待つ必要があるため書き込みパフォーマンスが低下します。\n分散システムにはいくつかのトレードオフがあります。特にこの問題は適切に拡張したいときに対処しなければならない問題です。\nスケールアップを継続する スレーブデータベースを利用するという手法では、ある程度の範囲まで読み込みトラフィックを水平にスケールアップすることができます。これは大変素晴らしいのでしが、書き込みトラフィックにはどこかで上限があることになります。なぜなら書き込みは1台でしか対応できていないからです。\nここにはあまり選択肢がありません。書き込みトラフィックを処理することができないために書き込みトラフィックを複数のサーバーに分割する必要があります。\n1つの方法はマルチマスターレプリケーション戦略を取ることです。スレーブからは読み込むだけだったことの代わりに、複数のマスターノードを持ち、読み書きに対応させるようにします。ただ残念なことに重複を作成してしまうという (例えば2つのレコードを同じIDでインサートする)複雑な問題が発生します。\nもう一つの方法としてシャーディング (またはパーティショニング)とよばれる方法を見てみましょう。\nサーバーを複数の小さなサーバー二分割してシャーディングしたものをシャード と呼びます。これらのシャードはすべて異なるレコードを持っています。なので何のレコードをどのシャードにするかというルールを作成します。データが一様に分散されるようにルールを作ることは大変重要です。\nよくある手法としてレコードにおける情報の範囲によって定義するという方法があります。(例えばユーザー名がA~D)\nこのシャーディングキーは任意のカラムと等しくない読み込みが発生するため、慎重に選ぶ必要があります。(例えば多くの人々の名前はZよりもCから始まる) 多くのリクエストを他のシャードよりも受け取るシャードのことを ホットスポット とよびこれは避けなければなりません。一度分割したものを再度シャーディングしなおすことは信じられないほど大変コストがかかるもので、FourSquareの11時間の障害のように多くのダウンタイムを引き起こすことになります。",
+  "inLanguage" : "ja",
+  "wordCount":  556 ,
+  "datePublished" : "2019-11-24T19:00:00",
+  "dateModified" : "2019-11-24T19:00:00",
+  "image" : "https:\/\/ryosan-470.github.io\/",
+  "keywords" : [ "distributed systems" ],
+  "mainEntityOfPage" : "https:\/\/ryosan-470.github.io\/posts\/introfuction_of_distributed_systems\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/ryosan-470.github.io\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/ryosan-470.github.io\/",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
 
 <meta property="og:title" content="分散システム入門" />
 <meta property="og:description" content="A Thorough Introduction to Distributed Systems https://medium.com/free-code-camp/a-thorough-introduction-to-distributed-systems-3b91562c9b3c
@@ -81,110 +134,160 @@
 もう一つの方法としてシャーディング (またはパーティショニング)とよばれる方法を見てみましょう。
 サーバーを複数の小さなサーバー二分割してシャーディングしたものをシャード と呼びます。これらのシャードはすべて異なるレコードを持っています。なので何のレコードをどのシャードにするかというルールを作成します。データが一様に分散されるようにルールを作ることは大変重要です。
 よくある手法としてレコードにおける情報の範囲によって定義するという方法があります。(例えばユーザー名がA~D)
-このシャーディングキーは任意のカラムと等しくない読み込みが発生するため、慎重に選ぶ必要があります。(例えば多くの人々の名前はZよりもCから始まる) 多くのリクエストを他のシャードよりも受け取るシャードのことを ホットスポット とよびこれは避けなければなりません。一度分割したものを再度シャーディングしなおすことは信じられないほど大変コストがかかるもので、FourSquareの11時間の障害のように多くのダウンタイムを引き起こすことになります。" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://ryosan-470.github.io/tsundoku/posts/introfuction_of_distributed_systems/" />
-<meta property="article:published_time" content="2019-11-24T19:00:00+09:00" />
-<meta property="article:modified_time" content="2019-11-24T19:07:46+09:00" />
+このシャーディングキーは任意のカラムと等しくない読み込みが発生するため、慎重に選ぶ必要があります。(例えば多くの人々の名前はZよりもCから始まる) 多くのリクエストを他のシャードよりも受け取るシャードのことを ホットスポット とよびこれは避けなければなりません。一度分割したものを再度シャーディングしなおすことは信じられないほど大変コストがかかるもので、FourSquareの11時間の障害のように多くのダウンタイムを引き起こすことになります。">
+<meta property="og:url" content="https://ryosan-470.github.io/posts/introfuction_of_distributed_systems/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="ryosan-470 Blog" />
+
+  <meta name="twitter:title" content="分散システム入門" />
+  <meta name="twitter:description" content="A Thorough Introduction to Distributed Systems https://medium.com/free-code-camp/a-thorough-introduction-to-distributed-systems-3b91562c9b3c
+はじめに 世界における技術のますますの発展とともに分散システムもますます広がってきました。それらはコンピューターサイエ …">
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.69.0" />
+  <link rel="alternate" href="https://ryosan-470.github.io/index.xml" type="application/rss+xml" title="ryosan-470 Blog"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://ryosan-470.github.io/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="https://ryosan-470.github.io/css/syntax.css" /><link rel="stylesheet" href="https://ryosan-470.github.io/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
 
 
-</head>
-<body><nav class="navbar is-transparent " role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="https://ryosan-470.github.io/tsundoku/">
-      <figure class="image">
-        <img alt="" class="is-rounded" src="https://www.gravatar.com/avatar/d41d8cd98f00b204e9800998ecf8427e?s=128&d=identicon">
-      </figure>
-    </a>
-    <a class="navbar-item" href="https://ryosan-470.github.io/tsundoku/">
-      ryosan-470の積ん読ブログ
-    </a>
-  </div>
-  
-  <div class="navbar-menu">
-    <div class="navbar-start">
-      
-      <a class="navbar-item" href="https://ryosan-470.github.io/tsundoku/tags/aws/">
-        
-        Aws
-        
-      </a>
-      
-      <a class="navbar-item" href="https://ryosan-470.github.io/tsundoku/tags/blockchain/">
-        
-        Blockchain
-        
-      </a>
-      
-      <a class="navbar-item" href="https://ryosan-470.github.io/tsundoku/tags/distributed-systems/">
-        
-        Distributed systems
-        
-      </a>
-      
-      <a class="navbar-item" href="https://ryosan-470.github.io/tsundoku/tags/testing/">
-        
-        Testing
-        
-      </a>
-      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-80017772-3', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">メニューを切り替え</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://ryosan-470.github.io/">ryosan-470 Blog</a>
     </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        
+      </ul>
+    </div>
+
     
-    <div class="navbar-end">
-      
-      <a class="navbar-item" href="https://github.com/ryosan-470/" rel="noopener" target="_blank">
-        <span class="icon">
-          <img alt="github-circle" src='https://ryosan-470.github.io/tsundoku/icons/svg/github-circle.svg'>
-        </span>
-      </a>
-      
-      <a class="navbar-item" href="mailto:" target="_blank">
-        <span class="icon">
-          <img alt="email" src='https://ryosan-470.github.io/tsundoku/icons/svg/email.svg'>
-        </span>
-      </a>
-      <a class="navbar-item" href="https://ryosan-470.github.io/tsundoku/index.xml" target="_blank">
-        <span class="icon">
-          <img alt="rss" src='https://ryosan-470.github.io/tsundoku/icons/svg/rss.svg'>
-        </span>
-      </a>
-      
-    </div>
+
   </div>
 </nav>
-<section class="hero is-small is-info is-fullwidth">
-  <div class="hero-body">
-<div class="container">
-  <h1 class="title">
-    分散システム入門
-  </h1>
-  <h2 class="subtitle">
-    <time datetime='2019-11-24T19:00:00&#43;09:00'>
-      November 24, 2019
-    </time>
+
+
+
+
     
-    <br>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
     
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
     
-    
-    <a class="tag is-link" href="https://ryosan-470.github.io/tsundoku/tags/distributed-systems/">distributed systems</a>
-    
-    
-    
-  </h2>
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
 </div>
 
-  </div>
-</section>
-<section class="section">
-  <div class="container">
-<div class="content is-medium">
-  <h1 id="a-thorough-introduction-to-distributed-systems">A Thorough Introduction to Distributed Systems</h1>
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="posts-heading">
+              
+                <h1>分散システム入門</h1>
+              
+              
+                <hr class="small">
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <h1 id="a-thorough-introduction-to-distributed-systems">A Thorough Introduction to Distributed Systems</h1>
 <p><a href="https://medium.com/free-code-camp/a-thorough-introduction-to-distributed-systems-3b91562c9b3c">https://medium.com/free-code-camp/a-thorough-introduction-to-distributed-systems-3b91562c9b3c</a></p>
-<h1 id="heading">はじめに</h1>
+<h1 id="はじめに">はじめに</h1>
 <p>世界における技術のますますの発展とともに分散システムもますます広がってきました。それらはコンピューターサイエンスの分野において複雑で巨大なものとなっています。</p>
 <p>この記事では分散システムの基本的な方法について紹介し、システムの深い詳細を紹介するのではなく分散システムの異なるカテゴリに関して垣間見ることになります。</p>
-<h2 id="heading1">分散システムとはなにか</h2>
+<h2 id="分散システムとはなにか">分散システムとはなにか</h2>
 <p>分散システムの最も単純な定義はエンドユーザーには1つのコンピュータのように見えるように連携して動作するコンピュータの集合です。
 これらのマシンは状態を共有しており、同時に動作し、システム全体への影響を及ぼさず独立して障害を起こします。
 私はあなたがそれを全てよりよく理解できるようにシステムを分散させる例を通して段階的に取り組むことを提案します。</p>
@@ -192,7 +295,7 @@
 <p>データベースを使ってみましょう。従来のデータベースは情報を取得/挿入したいときはいつでも1つのマシンのファイルシステムに保存しているため、そのマシンと直接やり取りをします。
 このデータベースシステムでの分散とは、同じときに複数のマシンでこのデータベースを動かすことになります。ユーザーは自分が選択したどのマシンともやりとりでき、単一のマシンと会話していないことを伝えることはできません。もしノード 1にレコードを挿入すると、ノード3はそのレコードを返すことができます。</p>
 <p><img src="https://paper-attachments.dropbox.com/s_7C5824095611B6F99CD897C257373A1B301D6BA090DAE1EE35920999DD48FC87_1553738367079_image.png" alt=""></p>
-<h2 id="heading2">どうして分散システムなのか</h2>
+<h2 id="どうして分散システムなのか">どうして分散システムなのか</h2>
 <p>システムは常に必要に応じて分散されます。問題の真実は分散システムの管理は落とし穴と地雷でいっぱいな複雑なトピックであるということです。デプロイや維持、分散システムのデバッグは頭痛の種であり、どうしてそちらに行くのでしょうか?</p>
 <p>分散システムが可能にすることは<strong>水平方向へのスケール</strong> です。1つのデータベース・サーバーがある例に戻ってみると、更に多くのトラフィックをさばくための唯一の方法はデータベースが動いているハードウェアをアップグレードすることだけでした。これを <strong>垂直方向のスケーリング</strong> と呼びます。</p>
 <p><strong>水平方向のスケーリング</strong> はハードウェアをアップグレードするということではなく単に更に多くのコンピューターを追加するということです。</p>
@@ -206,7 +309,7 @@
 <li><strong>低遅延</strong> 世界を旅するネットワークパケットの時間は光の速度という制約が物理的に存在します。例えばニューヨークとシドニー間の光ファイバーケーブル内の往復時間 (RTT) は最も短くて160msです。分散システムは2つの街にノードをおき、近いノードからトラフィックを返すことができます。</li>
 </ul>
 <p>しかし分散システムを動かすためには具体的に同じ時間で複数のコンピューターに動かし、問題が起きた場合に対処するソフトウェアが必要です。これは簡単ではありません。</p>
-<h1 id="heading3">データベースをスケーリングする</h1>
+<h1 id="データベースをスケーリングする">データベースをスケーリングする</h1>
 <p>Webアプリケーションが大変有名になったと想像してみてください。さらに私達のデータベースが扱うクエリが秒間で2倍になったと想像してみてください。アプリケーションはすぐさまパフォーマンスが低下し、ユーザーはそれに気づくでしょう。</p>
 <p>では一緒にデータベースをスケールアップし高負荷に耐えられるようにしていきましょう。</p>
 <p>典型的なWebアプリケーションでは新しい情報を挿入したり古い情報を修正するよりも情報を読み取ることのほうが多いです。</p>
@@ -214,8 +317,8 @@
 <p>読み取りパフォーマンスを向上する方法として<strong>マスタースレーブレプリケーション</strong> 戦略と呼ばれる方法があります。ここでは新しく2つのデータベースサーバーをつくりメインのものと同期させます。これら2つのインスタンスからのみ読み取るようにします。</p>
 <p>情報を修正または挿入するときはいつでもマスターデータベースに接続しに行きます。それは順番に変更をスレーブに非同期的に通知しデータを保存します。</p>
 <p>おめでとうございます。ついに3倍もの読み込みクエリを実行できるようになりました。これでよいでしょうか?</p>
-<h1 id="heading4">分散システムのカテゴリ</h1>
-<h2 id="heading5">落とし穴</h2>
+<h1 id="分散システムのカテゴリ">分散システムのカテゴリ</h1>
+<h2 id="落とし穴">落とし穴</h2>
 <p>さて、データベースの<strong>ACID</strong> 保証のうち<strong>C</strong> で表される一貫性が抜け落ちています。
 ご存知の通り、ここには新しいレコードをデータベースにインサートしてすぐにそれを取得する読み込みクエリを実行すると何も返ってこないという問題があります。</p>
 <p>マスターからスレーブへの新しい情報の伝搬は瞬時には行われません。実際には古くなった情報を取得できる時間枠があります。そうでない場合は、データが伝搬されるのを同期的に待つ必要があるため書き込みパフォーマンスが低下します。</p>
@@ -231,7 +334,7 @@
 <p>このシャーディングキーは任意のカラムと等しくない読み込みが発生するため、慎重に選ぶ必要があります。(例えば多くの人々の名前はZよりもCから始まる) 多くのリクエストを他のシャードよりも受け取るシャードのことを <strong>ホットスポット</strong> とよびこれは避けなければなりません。一度分割したものを再度シャーディングしなおすことは信じられないほど大変コストがかかるもので、<a href="https://mashable.com/2010/10/05/foursquare-downtime-post-mortem/#qyp__Q9UDkqW">FourSquareの11時間の障害</a>のように多くのダウンタイムを引き起こすことになります。</p>
 <p>例を単純にするために私達のクライアント (Railsアプリ) が各レコードに対しどのデータベースを使用するか知っていると仮定しましょう。また分割には多くの戦略がありますが、今回は概要を説明するために簡単な例を使用します。</p>
 <p>私達は今おおくの勝利を収めました。書き込みトラフィックはN倍に増え、Nはシャードの数です。これは事実上上限がないということになります。分割によってどれだけ細かいパーティショニングが得られるか想像してみてください。</p>
-<h2 id="heading6">落とし穴</h2>
+<h2 id="落とし穴-1">落とし穴</h2>
 <p>どんなソフトウェアエンジニアリングでも少なからずトレードオフがあり、今回も例外ではありません。シャーディングは簡単には実現できないので、<a href="https://www.percona.com/blog/2009/08/06/why-you-dont-want-to-shard/">本当に必要となるまで</a>避けることが最善です。
 パーティション化されたキー以外でクエリを実行したところ、信じられないほど非効率になりました。(それらはすべてのシャードを通過する必要があります) SQLの <code>JOIN</code> クエリは最も悪く、複雑なもののため実際には利用できなくなります。</p>
 <h2 id="decentralized-vs-distributed">decentralized vs distributed</h2>
@@ -244,15 +347,15 @@
 <p>注記: この定義はすでに多くの人が議論しており、多くの人々を混乱させています。(peer to peer / federated) 。<a href="https://ethereum.stackexchange.com/a/7829">初期の頃にはそれは異なるものだと定義されていました。</a>とにかく定義として私があなたに与えたものは、ブロックチェーンと暗号通貨がその用語を広めたため、今最も広く使われていると感じているものです。
 <img src="https://paper-attachments.dropbox.com/s_7C5824095611B6F99CD897C257373A1B301D6BA090DAE1EE35920999DD48FC87_1558928746015_image.png" alt=""></p>
 </blockquote>
-<h1 id="heading7">分散システムのカテゴリ</h1>
+<h1 id="分散システムのカテゴリ-1">分散システムのカテゴリ</h1>
 <p>さてここからは多くの分散システムのカテゴリについてみていき、多くに知られている本番で利用されている大きなシステムをリスト化していきます。表示されているそのような数字の部分は大きくなっておりこれを読んでいる時点ではおそらく大幅に大きいことに気をつけてください。</p>
-<h2 id="heading8">分散データストア</h2>
+<h2 id="分散データストア">分散データストア</h2>
 <p>分散データストアは幅広く利用されており、分散データベースとして知られています。ほとんどの分散データベースはNoSQLというリレーショナルを持たないデータベースでキーバリューセマンティクスの制約を持っています。これらは一貫性または可用性を犠牲にして信じられないほどのパフォーマンスとスケーラビリティを持っています。</p>
 <blockquote>
 <p>Appleでは2015年において、10PBに登るデータを75000のApache Cassandoraノードに保存していることが知られています</p>
 </blockquote>
 <p><strong>CAP定理</strong> の説明をしないで分散データストアの議論をすることはできません。</p>
-<h2 id="cap">CAP定理</h2>
+<h2 id="cap定理">CAP定理</h2>
 <p><a href="https://mwhittaker.github.io/blog/an_illustrated_proof_of_the_cap_theorem/">2002年に証明された方法では</a>CAP定理によると分散データストアは一貫性、可用性、分断耐性を同時に実現することはできません。</p>
 <p><img src="https://paper-attachments.dropbox.com/s_7C5824095611B6F99CD897C257373A1B301D6BA090DAE1EE35920999DD48FC87_1554633473239_image.png" alt=""></p>
 <p>簡単な定義は、</p>
@@ -301,7 +404,7 @@ Cassandraは大規模にスケール可能でさらにとてつもない書き�
 <p><a href="https://www.slideshare.net/ShingoOmura/ss-103946354">https://www.slideshare.net/ShingoOmura/ss-103946354</a> のスライドが日本語だと詳しそう</p>
 </blockquote>
 <p>しかし実際には信頼できないネットワーク上で高速に合意を達成するアルゴリズムが存在します。Cassandraは実際に分散合意としてのアルゴリズムであるPaxosを用いた<a href="https://www.beyondthelines.net/databases/cassandra-lightweight-transactions/">軽量なトランザクション</a>を提供しています。</p>
-<h2 id="heading9">分散コンピューティング</h2>
+<h2 id="分散コンピューティング">分散コンピューティング</h2>
 <p>分散コンピューティングとは、最近みているビックデータ処理の流入の鍵です。1つのコンピュータでは現実的に処理できないような巨大なタスク (例えば、1000億レコードを集計する) を多くの小さなタスクに分割し、それをそれぞれ単一のマシンで実行するというやり方です。巨大なタスクをたくさんの小さなタスクへ分割し、多くのマシンで並行に実行しデータを集計することで最初の問題を解くことができます。この手法は水平スケーリングに再び帰着します。つまり大きなタスクについては単純にたくさんのノードを計算に追加すればいいのです。</p>
 <p>この分野での早い開拓者としてGoogleがいて、彼らの巨大なデータを処理する必要性からMapReduceというパラダイムを発明しました。<a href="http://static.googleusercontent.com/media/research.google.com/en/us/archive/mapreduce-osdi04.pdf">2004年にはそれを論文として</a>公開し、後にApache Hadoop がそれを元にオープンソースコミュニティとして立ち上がりました。</p>
 <p><strong>MapReduce</strong>
@@ -317,7 +420,7 @@ Each job traverses all of the data in the given storage node and maps it to a si
 MapReduceは今ではレガシーであり、いくつかの問題を持っています。ジョブはバッチとして動いており、もしジョブがどこかで失敗すると、全体を再起動する必要があります。ある2時間のジョブが失敗すると全体のデータ処理パイプラインを遅くすることができ、それがピーク時間に起こることを望みません。</p>
 <p>もう一つの問題として、結果を得るまで待たなければならないということがあります。実際の解析システム (ビックデータを持ち、このように分散コンピューティングを用いる) では、最新のクランチデータを可能な限り新鮮なうちに利用することが重要です。</p>
 <p>そのためこれらの問題に対応する他のアーキテクチャが現れてきました。つまり Lambda アーキテクチャとKappa アーキテクチャ です。これらの利点を新しいツールに導入しています。(Kafka Streams , Apache Spark, Apache Storm, Apache Samza)</p>
-<h2 id="heading10">分散ファイルシステム</h2>
+<h2 id="分散ファイルシステム">分散ファイルシステム</h2>
 <p>分散ファイルシステムは分散データストアとして考えられています。同じ概念を持っていて、 データは大量のクラスターにまたがって保存してあり、1台にあるように見えるようになっています。それらは通常、分散コンピューティングと密接に関係しています。</p>
 <blockquote>
 <p><a href="https://www.slideshare.net/Hadoop_Summit/what-it-takes-to-run-hadoop-at-scale-yahoo-perspectives">YahooはHDFSを42000ノード以上で動かしており、600PB以上のデータを保持しています。(2011)</a></p>
@@ -332,7 +435,7 @@ Hadoop Distributed File System (HDFS) はHadoopフレームワークで利用さ
 <a href="https://ipfs.io/">Interplanetary File System (IPFS)</a> は分散ファイルシステム用の面白いピア・ツー・ピアプロトコル/ネットワークです。ブロックチェーン技術で活用されており、それは単一の所有者も障害点もない、完全に分散化 (decentalized) されたアーキテクチャになっています。</p>
 <p>IPFS はDNS同様のネーミングシステムであるIPNSを持っており、ユーザーは簡単に情報にアクセスすることができます。それはGitが行っているような歴史的バージョニングを経由してファイルを保存しています。これによりすべてのファイルの以前の状態にアクセスすることができます。</p>
 <p>これはまだ開発途上であり (執筆時点でv0.4) ますが、すでにあるプロジェクトがこのファイルシステム上に構築されています。(<a href="https://filecoin.io/">FileCoin</a>)</p>
-<h2 id="heading11">分散メッセージング</h2>
+<h2 id="分散メッセージング">分散メッセージング</h2>
 <p>メッセージングシステムはシステム全体の中でメッセージ/イベントを保存および伝搬するための中心的な場所を提供します。これを使用することでアプリケーションロジックを他のシステムと対話することから分離することができます。</p>
 <blockquote>
 <p><a href="https://engineering.linkedin.com/apache-kafka/how-we_re-improving-and-advancing-kafka-linkedin">Linkedin におけるKafkaクラスターは1日に1兆件のメッセージを処理し、1秒間に450万件のメッセージを処理しました。</a>
@@ -347,7 +450,7 @@ Hadoop Distributed File System (HDFS) はHadoopフレームワークで利用さ
 <p><strong>Kafka</strong> メッセージブローカ (およびすべてのプラットフォーム) はやや低レベルで、どのメッセージが読み取られたかを追跡することもできず複雑なルーティングロジックも使用できません。これにより驚くべきパフォーマンスを実現しています。私の意見ではオープンソースコミュニティにより活発に開発されConfluentチームによりサポートされる最も見通しのあるプロジェクトです。Kafkaは間違いなくトップテック企業で最も広く使われています。<a href="https://hackernoon.com/thorough-introduction-to-apache-kafka-6fbf2989bbc1">Kafkaの紹介と利点についての詳細を私は書いています。</a></p>
 <p><strong>Apache ActiveMQ</strong> 最も古いもので2004年からのプロジェクトです。JMS APIを用いるため、Java EEアプリケーションと連携できます。ActiveMQ Artemis として書き直され、Kafkaと同等の優れたパフォーマンスを提供します。</p>
 <p><strong>Amazon SQS</strong> AWSにより提供されるメッセージングサービスです。すでに存在するアプリケーションに容易に組み込みことができ、Kafkaのようなシステムは設定することが難しいということで有名なので、独自のインフラストラクチャを扱う必要性を排除することができます。Amazon はさらに似ている2つのサービスとしてSNSとMQを用意しており、後者はAmazonにより管理されるActiveMQを基本としています。</p>
-<h2 id="heading12">分散アプリケーション</h2>
+<h2 id="分散アプリケーション">分散アプリケーション</h2>
 <p>1つのデータベースに接続された単一のロードバランサの背後に5つのRailsサーバーを配置する場合、それは分散アプリケーションと呼ぶことはできるのでしょうか? 改めて上の定義を思い出してみてください。</p>
 <blockquote>
 <p>分散システムとは、エンドユーザにとっては1つのコンピュータのように見える、複数のコンピュータが連携して動くものです。これらのマシンは状態を共有し、並列して操作し、システム全体に影響を与えることなく独立して故障する可能性があります。</p>
@@ -372,7 +475,7 @@ BitTorrentはtorrentを用いて巨大なファイルをWeb経由で転送する
 <p>BitTorrentやその前駆者 (Gnutella, Napster) はファイルをボランティアでホストし、そのファイルがほしいユーザーへアップロードすることができます。BitTorrentがとても人気があるのは、ネットワークに貢献するためのインセンティブを提供することが最初のものだったからです。ユーザーがファイルをダウンロードするだけの<strong>フリーライディング</strong> は以前のファイル共有プロトコルの問題でした。</p>
 <p>BitTorrentはseederに最高のダウンロードを提供する人にもっとアップロードさせることである程度フリーライディングを解決しました。これはファイルをダウンロードしているときにアップロードする動機づけになります。残念ながらダウンロードが終わったあとに、ネットワーク内で活動的な状態を維持することはできません。これは完全なファイルを持っているネットワーク内のseederが不足を引き起こし、プロトコルはそのようなユーザーに大きく依存しているため、プライベートトラッカーのような解決策が実現しました。プライベートトラッカーは分散ネットワークに参加するために(ときおり招待制の)コミュニティのメンバーになる必要があります。</p>
 <p>この分野での進歩により、トラッカーレスなtorrentが発明されました。これはBitTorrentプロトコルをアップグレードしたもので、メタデータを収集しピアを見つけるための中央トラッカーに依存せず、新しいアルゴリズムを用いています。そのようなものの例としてKademlia (Mainline DHT) があり、他のピアからピアを見つけ出すための分散ハッシュテーブル (DHT) です。実際には各ユーザーがトラッカーの役割を果たします。</p>
-<h2 id="-distributed-ledgers">分散元帳 (Distributed Ledgers)</h2>
+<h2 id="分散元帳-distributed-ledgers">分散元帳 (Distributed Ledgers)</h2>
 <p>分断元帳は分散ネットワーク内のすべてのノードで複製、同期、及び共有される不変の追加専用データベースとして考えることができます。</p>
 <blockquote>
 <p>2018年1月4日のピークではEthereumネットワークの1日の取引が130万件に達しました。</p>
@@ -408,7 +511,7 @@ Ethereumはプログラミング可能なブロックチェーンを基礎とし
 <li><a href="https://en.wikipedia.org/wiki/Decentralized_autonomous_organization">Decentralized Autonomous Organizations (DAO)</a> : 組織の改善案の合意のためにブロックチェーンを利用する組織。例として<a href="https://www.dash.org/governance/">Dashの統治システム</a>、<a href="https://smartcash.cc/what-is-smartcash/">SmartCashプロジェクト</a>があります。</li>
 <li>Decentralized Authentication (分散型認証): ブロックチェーンにIDを保存してどこでもシングルサインオンを可能にする。Sovrin, Civic など。</li>
 </ul>
-<h1 id="heading13">まとめ</h1>
+<h1 id="まとめ">まとめ</h1>
 <p>この短い記事で、分散システムとはなにか、なぜそれを使うのかを定義しようとし、各カテゴリを大まかに見てきました。覚えておきたい大切なことは、</p>
 <ul>
 <li>分散システムは複雑である</li>
@@ -418,7 +521,7 @@ Ethereumはプログラミング可能なブロックチェーンを基礎とし
 <li>分散システムには、データストア、コンピューティング、ファイルシステム、メッセージングシステム、元帳、アプリケーションの6つのカテゴリがある</li>
 </ul>
 <p>率直に言うと、分散システムの表面には殆ど触れていません。合意、レプリケーション戦略、イベント順序と時間、フォールトトレランス (耐障害性)、ネットワークを利用したメッセージのブロードキャストなど、中核的な問題を徹底的に説明することはできませんでした。</p>
-<h1 id="heading14">その他</h1>
+<h1 id="その他">その他</h1>
 <p>先に日本語で訳されていました。(8割方訳してから気づいた 😭 )</p>
 <ul>
 <li><a href="https://postd.cc/a-thorough-introduction-to-distributed-systems-3/">分散型システム徹底入門: Part 1</a></li>
@@ -426,42 +529,85 @@ Ethereumはプログラミング可能なブロックチェーンを基礎とし
 <li><a href="https://postd.cc/a-thorough-introduction-to-distributed-systems/">分散型システム徹底入門: Part 3</a></li>
 </ul>
 
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://ryosan-470.github.io//tags/distributed-systems/">distributed systems</a>&nbsp;
+            
+          </div>
+        
+
+        
+
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://ryosan-470.github.io/posts/test_flakiness/" data-toggle="tooltip" data-placement="top" title="Test Flakiness – Methods for identifying and dealing with flaky tests">&larr; 前ページ</a>
+            </li>
+          
+          
+        </ul>
+      
+
+
+      
+
+    </div>
+  </div>
 </div>
 
+      
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
 
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2019
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://ryosan-470.github.io/">ryosan-470 Blog</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          起動力に<a href="https://gohugo.io">Hugo v0.69.0</a> &nbsp;&bull;&nbsp; テーマに<a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>に基づいている<a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          &nbsp;&bull;&nbsp;[<a href="https://github.com/ryosan-470/ryosan-470.github.io/tree/ee6fb91214a26e37455763f30e0b76ba8b3e3f5e">ee6fb912</a>]
+        </p>
+      </div>
+    </div>
   </div>
-</section><footer class="footer">
-  <div class="content has-text-centered">
-    
-    <p>
-      Last modified November 24, 2019
-      
-      (commit ee6fb91)
-      
-    </p>
-    
-    
-    <p>
-      
-      <a href="https://github.com/orf/bare-hugo-theme" target="_blank">Bare Hugo theme.</a>
-      
-      
-    </p>
-    
-  </div>
-</footer>
+</footer><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="https://ryosan-470.github.io/js/main.js"></script><script> renderMathInElement(document.body); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="https://ryosan-470.github.io/js/load-photoswipe.js"></script>
 
 
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-80017772-3', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
 
-</body>
+
+
+
+
+
+
+    
+  </body>
 </html>
+
