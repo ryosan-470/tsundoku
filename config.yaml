@@ -5,6 +5,8 @@ enableGitInfo: true # Ref: https://gohugo.io/variables/git/
 googleAnalytics: UA-80017772-3
 hasCJKLanguage: true
 pagenate: 5
+permalinks:
+  post: /posts/:year/:month/:day/:filename
 publishDir: docs
 theme: beautifulhugo
 title: ryosan-470 Blog
@@ -30,30 +32,11 @@ Author:
 menu:
   main:
   - name: Blog
-    url: ""
-    weight: 1
+    url: posts
+    weight: 3
   - name: Tags
     url: tags
     weight: 2
-
-taxonomies:
-  tag: tags
-
-outputs:
-  home:
-    - "HTML"
-    - "RSS"
-  page:
-    - "HTML"
-  section:
-    - "HTML"
-    - "RSS"
-  taxonomyTerm:
-    - "HTML"
-    - "RSS"
-  taxonomy:
-    - "HTML"
-    - "RSS"
-
-sitemap:
-  filename: "sitemap.xml"
+  - name: About
+    url: about
+    weight: 1

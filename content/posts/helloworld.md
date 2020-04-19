@@ -2,7 +2,6 @@
 title: "Hello World Hugo and GitHub Pages!!"
 date: 2020-04-19T17:40:09+09:00
 draft: false
-url: "helloworld"
 ---
 
 n年ぶりに重い腰を上げてブログを更新する気になりました。
