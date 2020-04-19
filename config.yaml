@@ -1,20 +1,40 @@
-baseURL: https://ryosan-470.github.io/tsundoku/
-languageCode: ja-jp
-title: ryosan-470の積ん読ブログ
 author: ryosan-470
-theme: bare
-pagenate: 10
-publishDir: docs
+baseURL: https://ryosan-470.github.io/
+defaultContentLanguage: en
 enableGitInfo: true # Ref: https://gohugo.io/variables/git/
 googleAnalytics: UA-80017772-3
+hasCJKLanguage: true
+pagenate: 5
+publishDir: docs
+theme: beautifulhugo
+title: ryosan-470 Blog
 
 Params:
-  readmore: true
   mainSections:
-  - "posts"
-  social:
-    - icon: "github-circle"
-      url: "https://github.com/ryosan-470/"
+    - posts
+  commit: true
+  rss: true
+  comments: true
+  readingTime: false
+  wordCount: false
+  socialShare: true
+  showRelatedPosts: false
+  useHLJS: true
+  delayDisqus: true
+
+Author:
+  name: ryosan-470
+  github: ryosan-470
+  twitter: jtwp470
+
+menu:
+  main:
+  - name: Blog
+    url: ""
+    weight: 1
+  - name: Tags
+    url: tags
+    weight: 2
 
 taxonomies:
   tag: tags
