@@ -6,7 +6,7 @@ googleAnalytics: UA-80017772-3
 hasCJKLanguage: true
 pagenate: 5
 permalinks:
-  post: /posts/:year/:month/:day/:filename
+  posts: /posts/:year/:month/:day/:title
 publishDir: docs
 theme: beautifulhugo
 title: ryosan-470 Blog
