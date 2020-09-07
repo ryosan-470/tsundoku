@@ -10,6 +10,7 @@ permalinks:
 publishDir: docs
 theme: beautifulhugo
 title: ryosan-470 Blog
+disqusShortname: blog-ryosan470
 
 Params:
   mainSections:
