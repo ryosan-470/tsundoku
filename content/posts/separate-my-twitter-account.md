@@ -2,7 +2,6 @@
 title: "Twitter のアカウントを分離しました"
 date: 2020-09-07T22:34:15+09:00
 draft: false
-url: "separate-my-twitter-account"
 ---
 
 # TL; DR
